@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java on Cole Mackenzie</title>
+    <link>https://cmackenzie1.github.io/tags/java/</link>
+    <description>Recent content in Java on Cole Mackenzie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://cmackenzie1.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://cmackenzie1.github.io/post/hello-world/</link>
+      <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://cmackenzie1.github.io/post/hello-world/</guid>
+      <description>Hey, here is my first blog post. To get the hang of things, I am just going to do a simple Hello World tutorial in Java.
+Prerequisites  Java 8 or later installed Your favorite text editor  Get Started Lets drive straight into it. Open your text editor and create a new file. Lets name this file Hello.java and populate it with the following content.
+// Hello.java public class Hello { public static void main(String[] args) { System.</description>
+    </item>
+    
+  </channel>
+</rss>
