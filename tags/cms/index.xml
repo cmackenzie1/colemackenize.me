@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cms on Cole Mackenzie</title>
+    <link>https://cmackenzie1.github.io/tags/cms/</link>
+    <description>Recent content in Cms on Cole Mackenzie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 30 Jul 2018 15:36:09 +0000</lastBuildDate>
+    
+	<atom:link href="https://cmackenzie1.github.io/tags/cms/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Content Management for Hugo using Forestry.io</title>
+      <link>https://cmackenzie1.github.io/post/content-management-for-hugo-using-forestry-io/</link>
+      <pubDate>Mon, 30 Jul 2018 15:36:09 +0000</pubDate>
+      
+      <guid>https://cmackenzie1.github.io/post/content-management-for-hugo-using-forestry-io/</guid>
+      <description>Content Management for Hugo using Forestry.io Using Forestry.io you can configure, create, and add to your website using using an easy to use WebUI and forget about the rest. Forestry will automatically build and publish your website for you - no manual steps needed. :D</description>
+    </item>
+    
+  </channel>
+</rss>
