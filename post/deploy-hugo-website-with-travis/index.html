@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+         
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Continuous Deployment: Hugo &#43; TravisCI -&gt; GitHub Pages</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: black;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://cmackenzie1.github.io/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script> 
+
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.45.1" />
+        
+
+        
+        
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122949153-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)};
+          gtag('js', new Date());
+
+          gtag('config', 'UA-122949153-1');
+        </script>
+        
+    </head>
+
+    
+    
+    <script type="text/javascript" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    
+
+    <body>
+         
+        <nav class="navbar navbar-default navbar-fixed-top">
+
+            <div class="container">
+
+                <div class="navbar-header">
+
+                    <a class="navbar-brand visible-xs" href="#">Continuous Deployment: Hugo &#43; TravisCI -&gt; GitHub Pages</a>
+
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+
+                <div class="collapse navbar-collapse">
+
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/post/">Posts</a></li>
+                            
+                                <li><a href="/project/">Projects</a></li>
+                            
+                                <li><a href="/resume.pdf">Resume</a></li>
+                            
+                                <li><a href="/about">About Me</a></li>
+                            
+                        </ul>
+                    
+
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:colemackenzie1&#43;blog@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/cmackenzie1/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/cole-mackenzie/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+
+                </div>
+
+            </div>
+
+        </nav>
+
+
+<main>
+
+    <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/post/deploy-hugo-website-with-travis/">Continuous Deployment: Hugo &#43; TravisCI -&gt; GitHub Pages</a></h4>
+    <h5>July 26, 2018</h5>
+    
+    <a href="https://cmackenzie1.github.iotags/hugo"><kbd class="item-tag">hugo</kbd></a>
+    
+    <a href="https://cmackenzie1.github.iotags/travisci"><kbd class="item-tag">travisci</kbd></a>
+    
+    <a href="https://cmackenzie1.github.iotags/github"><kbd class="item-tag">github</kbd></a>
+    
+
+</div>
+
+
+    <br> <div class="text-justify">
+
+<h1 id="intro">Intro</h1>
+
+<p>A popular pattern for hosting a website nowadays is to use GitHub along with GitHub Pages. Using GitHub pages allows users to create and publish a website using a developers favortie tool, Git. An easy to setup, version controlled website with free hosting, domain name, and HTTPS certificate? It already sounds to good to be true, but now its about to get even better and all automated.</p>
+
+<p>Hugo is one of the most popular open-source static site generators built on top of Go. With its amazing speed and flexibility, Hugo makes building websites fun again. Now combine this with TravisCI, one of the most popular continuous integration tools used on GitHub and we can get some pretty awesome results. Lets get started.</p>
+
+<h1 id="the-problem">The Problem</h1>
+
+<p>I use a 2 repo model for building my website. One is a private repo which stores all the raw Hugo content, and one public repo that is the compiled HTML, CSS and Javascript needed to display you website. I use this structure so I can actively work on my website - in private, and have it deployed when I am ready by pushing the generated source files to the public repository. My typical workflow is this:</p>
+
+<ol>
+<li>Create a new branch on my Hugo repo</li>
+<li>Add new content and verify it using a local Hugo server (<code>hugo server -D</code>)</li>
+<li>Create a pull request and merge the content into the master branch on my Hugo repo</li>
+<li>Manualy execute a deploy script to compile the source into a directory named <code>public</code></li>
+<li>Navigate into <code>public</code></li>
+<li>Create new commit</li>
+<li>Push to master of public repo</li>
+<li>Verify changes in a browser.</li>
+</ol>
+
+<p>Phew, thats a lot of steps - especially when we can automate 4-7 using a continuous integration tool.</p>
+
+<h1 id="the-solution">The Solution</h1>
+
+<h2 id="prerequisites">Prerequisites</h2>
+
+<ul>
+<li>Account on TravisCI.com (for private repo builds)</li>
+<li>The latest linux binary of Hugo</li>
+<li>GitHub Personal Access Token with all <code>repo</code> permissions.</li>
+</ul>
+
+<h2 id="create-a-travis-yml-file">Create a <code>.travis.yml</code> file</h2>
+
+<p>To use TravisCI, your project root needs to contain a <code>.travis.yml</code> which is a set of instructions used to execute your build. The following is an example of mine.</p>
+
+<pre><code class="language-yaml"># Clean and don't fail
+install:
+  - rm -rf public || exit 0
+script:
+  - binaries/hugo -t minimal
+deploy:
+  provider: pages
+  local_dir: public
+  skip_cleanup: true
+  repo: cmackenzie1/cmackenzie1.github.io
+  target_branch: master
+  github_token: $token
+  on:
+    branch: master
+</code></pre>
+
+<h2 id="add-the-hugo-binary-to-your-private-repo">Add the Hugo binary to your private repo</h2>
+
+<p>Download the latest Linux release from here: <a href="https://github.com/gohugoio/hugo/releases">https://github.com/gohugoio/hugo/releases</a>.
+Extract the binary and rename it to <code>hugo</code> and place it in a folder called <code>binaries</code> in your project root.</p>
+
+<h2 id="test-your-build">Test your build</h2>
+
+<p>Commit your newly created <code>.travis.yml</code> file and hugo binary and push your changes. You can monitor the build process from the TravisCI.com UI.</p>
+
+<h2 id="deploy-new-content">Deploy new content</h2>
+
+<p>Create a PR, merge it, and wait for the build to finish. After that your changes should now be available on your website! You can check your public repo for the changes pushed by TravisCI.</p>
+
+<p>Enjoy!</p>
+
+<p>Inspired by: <a href="https://www.metachris.com/2017/04/continuous-deployment-hugo---travis-ci--github-pages/">https://www.metachris.com/2017/04/continuous-deployment-hugo---travis-ci--github-pages/</a></p>
+</div>
+
+    
+    
+
+    
+
+    
+
+        <h4 class="page-header">Comments</h4>
+
+        <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cmackenzie1-github-io" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    
+
+</main>
+
+        <footer>
+
+            <p class="copyright text-muted">&copy; All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a></p>
+
+        </footer>
+       
+    </body>
+
+</html>
+

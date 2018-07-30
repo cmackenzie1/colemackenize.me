@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Github on Cole Mackenzie</title>
+    <link>https://cmackenzie1.github.io/tags/github/</link>
+    <description>Recent content in Github on Cole Mackenzie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://cmackenzie1.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Continuous Deployment: Hugo &#43; TravisCI -&gt; GitHub Pages</title>
+      <link>https://cmackenzie1.github.io/post/deploy-hugo-website-with-travis/</link>
+      <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://cmackenzie1.github.io/post/deploy-hugo-website-with-travis/</guid>
+      <description>Intro A popular pattern for hosting a website nowadays is to use GitHub along with GitHub Pages. Using GitHub pages allows users to create and publish a website using a developers favortie tool, Git. An easy to setup, version controlled website with free hosting, domain name, and HTTPS certificate? It already sounds to good to be true, but now its about to get even better and all automated.
+Hugo is one of the most popular open-source static site generators built on top of Go.</description>
+    </item>
+    
+  </channel>
+</rss>

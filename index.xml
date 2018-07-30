@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cole Mackenzie</title>
+    <link>https://cmackenzie1.github.io/</link>
+    <description>Recent content on Cole Mackenzie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://cmackenzie1.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dryver</title>
+      <link>https://cmackenzie1.github.io/project/dryver/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cmackenzie1.github.io/project/dryver/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>https://cmackenzie1.github.io/about/</link>
+      <pubDate>Fri, 27 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://cmackenzie1.github.io/about/</guid>
+      <description>Hey there! It looks like you found my website. Well since you made it this far, here is a little bit about myself.
+My name is Cole Mackenzie, and I am a studying Computing Science at the Univeristy of Alberta in Edmonton, Alberta.
+My favorite programming languages are Go, Java, and Python sprinkled with a little Ruby for Chef. I used to be a long time Android fan, but have finally made the switch to the Apple ecosystem.</description>
+    </item>
+    
+    <item>
+      <title>Continuous Deployment: Hugo &#43; TravisCI -&gt; GitHub Pages</title>
+      <link>https://cmackenzie1.github.io/post/deploy-hugo-website-with-travis/</link>
+      <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://cmackenzie1.github.io/post/deploy-hugo-website-with-travis/</guid>
+      <description>Intro A popular pattern for hosting a website nowadays is to use GitHub along with GitHub Pages. Using GitHub pages allows users to create and publish a website using a developers favortie tool, Git. An easy to setup, version controlled website with free hosting, domain name, and HTTPS certificate? It already sounds to good to be true, but now its about to get even better and all automated.
+Hugo is one of the most popular open-source static site generators built on top of Go.</description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://cmackenzie1.github.io/post/hello-world/</link>
+      <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://cmackenzie1.github.io/post/hello-world/</guid>
+      <description>Hey, here is my first blog post. To get the hang of things, I am just going to do a simple Hello World tutorial in Java.
+Prerequisites  Java 8 or later installed Your favorite text editor  Get Started Lets drive straight into it. Open your text editor and create a new file. Lets name this file Hello.java and populate it with the following content.
+// Hello.java public class Hello { public static void main(String[] args) { System.</description>
+    </item>
+    
+  </channel>
+</rss>
