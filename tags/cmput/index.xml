@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cmput on Cole Mackenzie</title>
+    <link>https://cmackenzie1.github.io/tags/cmput/</link>
+    <description>Recent content in cmput on Cole Mackenzie</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>{year} &amp;copy; Cole Mackenzie</copyright>
+    <lastBuildDate>Sat, 20 Jul 2019 14:36:12 -0700</lastBuildDate>
+    
+	    <atom:link href="https://cmackenzie1.github.io/tags/cmput/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Core</title>
+      <link>https://cmackenzie1.github.io/project/core/</link>
+      <pubDate>Sat, 20 Jul 2019 14:36:12 -0700</pubDate>
+      
+      <guid>https://cmackenzie1.github.io/project/core/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

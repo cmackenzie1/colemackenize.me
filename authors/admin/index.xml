@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cole Mackenzie</title>
+    <link>https://cmackenzie1.github.io/authors/admin/</link>
+    <description>Recent content on Cole Mackenzie</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>{year} &amp;copy; Cole Mackenzie</copyright>
+    
+	    <atom:link href="https://cmackenzie1.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://cmackenzie1.github.io/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cmackenzie1.github.io/authors/admin/</guid>
+      <description>&lt;p&gt;Hey, I am Cole, a software engineering intern at Intuit. I will be completeing my BSc. in Fall 2019.
+My interests include information retrieval, cloud computing, big data, backend development, and service reliability.
+I currently have 2 years of work experience at Intuit across 3 different teams. I have helped develope backend services and tools for
+Optical Character Recognition, Call Center Technology, and Data Lake processing.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
