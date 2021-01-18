@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>housing | Cole Mackenzie</title>
+    <link>https://cmackenzie1.github.io/tag/housing/</link>
+      <atom:link href="https://cmackenzie1.github.io/tag/housing/index.xml" rel="self" type="application/rss+xml" />
+    <description>housing</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>2021 © Cole Mackenzie</copyright><lastBuildDate>Sat, 20 Jul 2019 14:38:49 -0700</lastBuildDate>
+    <image>
+      <url>https://cmackenzie1.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>housing</title>
+      <link>https://cmackenzie1.github.io/tag/housing/</link>
+    </image>
+    
+    <item>
+      <title>Homefinder</title>
+      <link>https://cmackenzie1.github.io/project/homefinder/</link>
+      <pubDate>Sat, 20 Jul 2019 14:38:49 -0700</pubDate>
+      <guid>https://cmackenzie1.github.io/project/homefinder/</guid>
+      <description>&lt;p&gt;Homefinder is a project in collaboration with Robin Mwesigye and CMPUT 401 at the University of Alberta. Over the course of 3 months, a team of 5 people rapidly
+developed an application to help students find housing with like minded students. The project is not yet live, however when it is, you will find it &lt;a href=&#34;https://www.rentwhiz.ca/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
