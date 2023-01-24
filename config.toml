@@ -2,7 +2,7 @@
 languageCode = "en"
 defaultContentLanguage = "en"
 
-title = "Lynx"
+title = "Cole MacKenzie"
 
 enableEmoji = true
 disableKinds = ["taxonomy", "term"]
